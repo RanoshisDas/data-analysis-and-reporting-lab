@@ -1,6 +1,6 @@
-import matplot.pyplot as pyplot
+import matplotlib.pyplot as plt
 
-x=[5,64,32,51,5,25,54,56]
+x=[89,64,32,51,22,25,54,56]
 
-plt.pie(x)
+plt.pie(x,labels=x)
 plt.show()
